@@ -1,0 +1,115 @@
+.side-menu{
+    flex:3;
+    background-color: #254054;
+   
+   
+   }
+   .newchat{
+     background-color:#2C5069;  
+     width:100%;
+     box-shadow: 0 px 10px rgb(0, 0, 0);
+     height: 8%;
+     margin-bottom: 0.5rem;
+   }
+   .newchat>button{
+       color: #ABB2B8;
+       background-color: #254054;
+       padding: 1rem;
+       margin: 0.7rem;
+       border: none;
+       border-radius: 7px;
+       width: 95%;
+       font-size: 1.3rem;
+       text-align: left;
+       padding-left: 2rem;
+   
+       
+   }
+   .newchat>button>img{
+       
+       width: 3rem;
+       padding: 0;
+       margin: 0;
+       float: right;
+   }
+   
+   .newchat>button:hover{
+       color: #000000;
+       background-color: #FB9B51;
+   
+       
+   }
+   
+   
+   .history{
+       display: block;
+       min-height: 100vh;
+   }
+   .history>div{
+       overflow: hidden;
+       overflow-y: scroll;
+       scroll-behavior: smooth;
+       width: 100%;
+       height: calc( 100vh - 15rem);
+   }
+   .past-chat{
+       background:#254054;
+       color: #ABB2B8;
+       padding: 1rem;
+       padding-left: 2rem;
+       margin: 0.7rem;
+       border: none;
+       border-radius: 7px;
+       width: 80%;
+       font-size: 1.3rem;
+       align-items: center;
+       box-shadow: 0 1px 5px rgb(0, 0, 0);
+       text-align: left;
+       height: 3rem;
+       display: flex;
+   
+   }
+
+      
+   .past-chat>button:nth-child(1){
+    color: #ABB2B8;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: none; 
+    text-align: left;
+    flex: 9;
+  }
+   
+   .past-chat>button:nth-child(2){
+       background-color: transparent;
+       border: none; 
+       padding: 0;
+       margin: 0;
+       flex: 1;
+
+     }
+   
+   .past-chat>button>img{
+       width: 3rem; 
+   }
+   
+   
+   .past-chat:hover{
+       background-color: #698BA3;
+   
+   }
+
+   .chat-reset{
+    width: 1rem;
+    
+   }
+   
+   .refresh{
+    font-weight: 600;
+    color: #aaa;
+    float: left;
+    margin: 0.2rem;
+    display: flex;
+    font-size: 1rem;
+   }
+

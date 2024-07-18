@@ -1,0 +1,70 @@
+.header1{
+    display: flex; 
+    background-color: #061C36; 
+    color: white;
+    height: 8%;
+}
+
+.left-header1{
+    padding: 1.5rem;
+    flex:3; 
+    display: flex; 
+    font-size: 1.5rem;
+}
+.back-button1{
+    flex: 1;
+}
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 1rem;
+  }
+  
+  .dropdown-content3.show {
+    display: block;
+  }
+  
+  /* Dropdown content items */
+  .dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown content items on hover */
+  .dropdown-content3 a:hover {
+    background-color: #ddd;
+  }
+.profile-picture1{
+    flex: 4;
+margin: -0.5rem 0 0 1.5rem;
+}
+
+.Display-Name1{
+    flex:20;
+}
+
+.right-header1{
+    flex:12;
+    
+}
+
+.main{
+    display: flex;
+    min-height: 100vh;
+}
+
+.dp-chat{
+    border-radius: 50%;
+    border: #ef8f4f solid 2px;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgb(96, 121, 130);
+
+  }
+

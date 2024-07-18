@@ -1,0 +1,68 @@
+.changePW{
+
+    position: fixed;
+    left: calc((100vw - 33%)/2);
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    width: 30%;
+    padding: 2rem;
+    box-shadow: 4px 4px 10px #000000ac;
+    min-height: 40%;
+
+
+}
+
+
+    
+.changePW>div>form{
+    width: 100%;
+
+
+}
+
+
+.changePW>div>form>div:nth-of-type(1){
+
+   color: #254054;
+   font-size: 1.7rem;
+   font-weight: 800;
+   text-align: center;
+   padding: 1rem;
+    
+    }
+  
+input {
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0.7rem;
+    width: 83%;
+    font-size: 1rem;
+    box-shadow: inset 5px 20px rgba(130, 129, 129, 0.093);
+    height: 1.2rem;
+
+  }
+
+
+ .changePW>div>form>div>button{
+    box-shadow: inset 4px 4px 10px #000000ac;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    width: 90%;
+    border-radius: 5px;
+    margin: 0.7rem;
+    background-color: #254054;
+    color: rgb(0, 0, 0);
+    border: none;
+    color: #e9e9e9;
+}
+
+
+.changePW>div>form>div>button:hover{
+
+    background-color: #042945;
+}
+
+.passwordVisibility2{
+    color: #254054;
+}

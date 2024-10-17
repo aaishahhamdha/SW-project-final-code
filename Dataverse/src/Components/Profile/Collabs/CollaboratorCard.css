@@ -1,0 +1,67 @@
+.collaborator-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    max-width: 300px;
+}
+
+.collaborator-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.collaborator-card-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.collaborator-card-details {
+    flex: 1;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.collaborator-card-details h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #2f546e;
+    font-weight: 600;
+    text-align: left;
+}
+
+.collaborator-card-details p {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 6px 0 0;
+    text-align: left;
+}
+
+.collaborators-cards-container {
+    display: flex;
+
+    gap: 20px;
+}
+
+.remove-collaborator-btn {
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .remove-collaborator-btn:hover {
+    color: darkred; 
+  }

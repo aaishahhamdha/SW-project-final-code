@@ -1,0 +1,110 @@
+.collabs-container {
+    padding: 20px;
+    margin: 5% 15%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1), 4px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.collabs-title {
+    color: #2f546e;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.collabs-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.collabs-table th,
+.collabs-table td {
+    padding: 13px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.collabs-table th:first-child,
+.collabs-table td:first-child {
+   width: 220px;
+
+}
+
+.collabs-table th {
+    background-color: transparent;
+    color: #2f546e;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+.collabs-table td {
+    background-color: #f7f9fb;
+    border-radius: 8px;
+    border: none;
+}
+
+.collabs-table tr {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.collaborators-cards-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.collaborator-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.collaborator-card:hover {
+    background-color: #f0f4f8;
+}
+
+.collaborator-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.collaborator-card .collaborator-name {
+    font-weight: bold;
+    color: #2f546e;
+}
+
+.collaborator-card .collaborator-username {
+    color: #7b8a8b;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.collaborator-card .fa-envelope {
+    margin-left: 15px;
+    color: #2f546e;
+    cursor: pointer;
+}
+
+.add-collaborator-icon {
+    float: right;
+    margin-left: 10px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .add-collaborator-icon:hover {
+    color: #0056b3;
+  }
+  

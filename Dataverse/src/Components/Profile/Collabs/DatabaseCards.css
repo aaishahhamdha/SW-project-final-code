@@ -1,0 +1,42 @@
+
+  /* Container for cards */
+  .database-cards-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Each card styling */
+  .database-card2 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .database-card2:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+
+  .database-card2 h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #0049a2;
+  }
+  
+
+  .owner-email2 {
+    font-size: 0.9em;
+    color: #555555;
+    margin-top: 8px;
+  }
+
+  .nonee{
+    background-color: #f7f9fb;
+    border-radius: 8px;
+    border: none;
+  }
+  

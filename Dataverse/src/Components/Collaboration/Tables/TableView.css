@@ -1,0 +1,58 @@
+.table-container {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.table-container h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.table-container h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.mytable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.thh, .tdd {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.thh {
+    background-color: #e3f6ff;
+    color: #000000;
+    font-weight: bold;
+}
+
+.trr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trr:hover {
+    background-color: #e6f7ff;
+}
+
+.loading {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.error {
+    font-size: 1.2rem;
+   
+}
+
+.tname,.tdata{
+    text-align: left;
+}
